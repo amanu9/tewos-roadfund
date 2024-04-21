@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/index"
+    
+  ],
+  
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Tewos Technology",
+    "navigationBarTextStyle": "black",
+    "capsuleTheme": "light"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

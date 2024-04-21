@@ -1,0 +1,38 @@
+<import src="../../../common/head.maml" />
+<import src="../../../common/foot.maml" />
+
+<view class="container">
+    <template is="head" data="{{title: 'form'}}" />
+
+    <view class="page-body">
+        <form bindsubmit="submit" bindreset="reset" id="form">
+            <view class="page-section">
+                <view class="titlecompany">Company Name
+
+                </view>
+                <view class="titleroad">Road-Fund
+
+                </view>
+            </view>
+
+            <view class="page-sectionn">
+                <view class="page-section-title">Payement Reference Number</view>
+                <view class="weui-cells weui-cells_after-title">
+                    <view class="weui-cell weui-cell_input ">
+                        <view class="weui-cell__bd">
+                            <input class="weui-input" name="input" id="input1" placeholder="Insert Payement Reference Number" />
+                        </view>
+                    </view>
+                </view>
+            </view>
+
+            <view class="btn-area">
+                <button id="submit" class="btn-custom-gradient" formType="submit">Next</button>
+
+            </view>
+        </form>
+    </view>
+
+    <template is="foot" />
+</view>
+
