@@ -1,0 +1,47 @@
+<import src="../../../common/head.maml" />
+<import src="../../../common/foot.maml" />
+
+<view class="container">
+    <template is="head" data="{{title: 'form'}}" />
+
+    <view class="page-body">
+        <form bindsubmit="submit" bindreset="reset" id="form">
+
+
+
+
+
+
+            <view class="page-sectionn">
+                <view class="page-section-title">User Name</view>
+                <view class="weui-cells weui-cells_after-title">
+                    <view class="weui-cell weui-cell_input ">
+                        <view class="weui-cell__bd">
+                            <input class="weui-input" name="input" id="input1" placeholder="Insert user name" />
+                        </view>
+                    </view>
+                </view>
+                <view class="page-section-title">passsword</view>
+                <view class="weui-cells weui-cells_after-title">
+                    <view class="weui-cell weui-cell_input ">
+                        <view class="weui-cell__bd">
+                            <input class="weui-input" name="input" id="input1" placeholder="Insert password" />
+                        </view>
+                    </view>
+                </view>
+            </view>
+
+            <view class="btn-area">
+
+                <button bindtap="" id=" submit" class="btn-custom-gradient" formType="submit">Send</button>
+
+
+
+
+            </view>
+        </form>
+    </view>
+
+    <template is=" foot" />
+</view>
+

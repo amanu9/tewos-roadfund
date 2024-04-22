@@ -25,9 +25,10 @@ form {
     border-radius: 10rpx;
 
 }
-.btn-custom-gradient {
+.btn-custom-gradient{
    
     background-color: rgb(91, 91, 247);
+    color: white;
    
   }
 
