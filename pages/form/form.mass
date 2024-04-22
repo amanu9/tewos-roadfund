@@ -1,0 +1,73 @@
+
+
+label {
+  display: inline-block;
+  min-width: 270rpx;
+  margin-right: 20rpx;
+}
+form {
+  width: 100%;
+}
+
+.weui-cell,weui-cell_input{
+   background-color:white;
+    
+    min-width: 570rpx;
+    margin-bottom:20rpx;
+    
+}
+#submit{
+    margin-bottom:20rpx;
+}
+.weui-cell__bd{
+    min-height: 80rpx; 
+    border: blue solid 1rpx; 
+    border-radius: 10rpx;
+
+}
+.btn-custom-gradient{
+   
+    background-color: rgb(91, 91, 247);
+    color: white;
+   
+  }
+
+ 
+  #submit{
+    color: aliceblue;
+  }
+
+  .page-section-title{
+    margin-bottom: 10rpx;
+    margin-top:20rpx;
+    font-size: small;
+  }
+  .weui-input{
+    text-align: center;
+  
+    font-size: 20rpx;
+  }
+ .page-section{
+    display:flex;
+    justify-content: space-between;
+ }
+.titleroad{
+    color: rgb(91, 91, 247);
+    font-size: small;
+}
+.titlecompany{
+   font-weight:bold;
+   font-size: small;
+}
+.weui-input{
+    font-size: smaller;
+}
+.btn-custom-gradient:hover {
+   
+   cursor: pointer;
+  
+  }
+  .btn-area{
+    margin-top: 60rpx;
+  }
+

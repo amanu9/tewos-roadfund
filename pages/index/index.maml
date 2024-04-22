@@ -5,7 +5,7 @@
     <template is="head" data="{{title: 'form'}}" />
 
     <view class="page-body">
-        <form bindsubmit="submit" bindreset="reset" id="form">
+        <form bindsubmit="formSubmit" bindreset="reset" id="form">
             <view class="page-section">
                 <view class="titlecompany">Company Name
 
@@ -27,12 +27,16 @@
             </view>
 
             <view class="btn-area">
-                <button id="submit" class="btn-custom-gradient" formType="submit">Next</button>
+
+                <button id=" submit" class="btn-custom-gradient" formType="submit">Send</button>
+
+
+
 
             </view>
         </form>
     </view>
 
-    <template is="foot" />
+    <template is=" foot" />
 </view>
 
